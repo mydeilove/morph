@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_hearing_home"
+        android:title="@string/nav_home_hearing"
+        android:icon="@drawable/nav_selector_home"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/nav_hearing_teach"
+        android:title="@string/nav_teach"
+        android:icon="@drawable/nav_selector_teach"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/nav_hearing_translate"
+        android:title="@string/nav_translate"
+        android:icon="@drawable/nav_selector_translate_hearing"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/nav_hearing_word"
+        android:title="@string/nav_word"
+        android:icon="@drawable/nav_selector_word"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/nav_hearing_setting"
+        android:title="@string/nav_setting"
+        android:icon="@drawable/nav_selector_setting"
+        app:showAsAction="always"/>
+</menu>

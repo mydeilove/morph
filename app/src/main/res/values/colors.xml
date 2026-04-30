@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主色调 -->
+    <color name="primary_color">#165DFF</color>
+    <color name="primary_press_color">#0E42C1</color>
+    <color name="secondary_color">#F5F7FA</color>
+    <!-- 文字颜色 -->
+    <color name="text_main">#1D2129</color>
+    <color name="text_secondary">#4E5969</color>
+    <color name="text_hint">#86909C</color>
+    <color name="white">#FFFFFF</color>
+    <!-- 边框、分割线 -->
+    <color name="divider_line">#E5E6EB</color>
+    <color name="stroke_color">#C9CDD4</color>
+    <!-- 状态色 -->
+    <color name="success_color">#00B42A</color>
+    <color name="error_color">#F53F3F</color>
+    <color name="warning_color">#FF7D00</color>
+    <!-- 底部导航栏 -->
+    <color name="nav_normal">#86909C</color>
+    <color name="nav_selected">#165DFF</color>
+    <color name="nav_bg">#FFFFFF</color>
+</resources>

@@ -1,0 +1,52 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 全局主题 -->
+    <style name="Theme.MorphSignLanguage" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_press_color</item>
+        <item name="colorAccent">@color/primary_color</item>
+        <item name="android:windowBackground">@color/secondary_color</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="materialButtonStyle">@style/MorphButtonStyle</item>
+        <item name="editTextStyle">@style/MorphEditTextStyle</item>
+    </style>
+
+    <!-- 按钮样式 -->
+    <style name="MorphButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/primary_color</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <!-- 输入框样式 -->
+    <style name="MorphEditTextStyle" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_main</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="boxStrokeColor">@color/stroke_color</item>
+        <item name="hintTextColor">@color/text_hint</item>
+    </style>
+
+    <!-- 底部导航文字样式 -->
+    <style name="NavTextActive" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/nav_selected</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="NavTextInactive" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/nav_normal</item>
+    </style>
+
+</resources>

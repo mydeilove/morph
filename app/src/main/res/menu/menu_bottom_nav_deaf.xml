@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_deaf_home"
+        android:title="@string/nav_home_deaf"
+        android:icon="@drawable/nav_selector_home"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/nav_deaf_warn"
+        android:title="@string/nav_warn"
+        android:icon="@drawable/nav_selector_warn"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/nav_deaf_translate"
+        android:title="@string/nav_translate"
+        android:icon="@drawable/nav_selector_translate_deaf"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/nav_deaf_map"
+        android:title="@string/nav_map"
+        android:icon="@drawable/nav_selector_map"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/nav_deaf_setting"
+        android:title="@string/nav_setting"
+        android:icon="@drawable/nav_selector_setting"
+        app:showAsAction="always"/>
+</menu>

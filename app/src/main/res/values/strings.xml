@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Morph</string>
+    <!-- 登录注册 -->
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="phone_hint">请输入11位手机号</string>
+    <string name="password_hint">请输入6位以上密码</string>
+    <string name="password_confirm_hint">请再次确认密码</string>
+    <string name="disability_card_hint">残疾人证号(选填,20位数字)</string>
+    <string name="go_to_register">还没有账号? 立即注册</string>
+    <string name="go_to_login">已有账号? 立即登录</string>
+    <!-- 听障模式底部导航 -->
+    <string name="nav_home_deaf">首页</string>
+    <string name="nav_warn">预警</string>
+    <string name="nav_translate">翻译</string>
+    <string name="nav_map">导航</string>
+    <string name="nav_setting">设置</string>
+    <!-- 健听模式底部导航 -->
+    <string name="nav_home_hearing">首页</string>
+    <string name="nav_teach">教学</string>
+    <string name="nav_word">词汇</string>
+    <!-- 页面通用 -->
+    <string name="page_home">首页</string>
+    <string name="page_warn">环境音预警</string>
+    <string name="page_translate">手语双向翻译</string>
+    <string name="page_map">无障碍地图</string>
+    <string name="page_setting">设置</string>
+    <string name="page_teach">手语教学</string>
+    <string name="page_word">手语词汇检索</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
